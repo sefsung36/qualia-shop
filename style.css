@@ -20,13 +20,12 @@ body {
   background: black;
   overflow: hidden;
   color: white;
-  font-family: Helvetica, sans-serif;
+  font-family: "Inter", Helvetica, sans-serif;
 }
 
 /* THE PAGE AREA */
 .world {
-  position: fixed;
-  inset: 0;
+  min-height: 100%;
   display: grid;
   place-items: center;
   background: black;
@@ -46,3 +45,12 @@ body {
   text-align: center;
   text-wrap: balance;
 }
+
+/* THE ENTER BUTTON */
+/* .enter-button {
+  display: inline-block;
+  margin-block: 14px;
+  padding: 3px 4px;
+  border: 3px solid white;
+  font-weight: 700;
+} */
