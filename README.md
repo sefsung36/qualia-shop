@@ -1,2 +1,3 @@
 # qualia-shop
-QUALIA SHOP
+
+This is the repository for "qualia-shop.com".
