@@ -11,12 +11,12 @@ body {
   font-family: Helvetica, sans-serif;
 }
 
+h1 {
+  font-size: 48px;
+}
+
 .world {
   min-height: 100vh;
   display: grid;
   place-items: center;
-}
-
-h1 {
-  font-size: 48px;
 }
