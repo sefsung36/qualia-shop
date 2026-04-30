@@ -31,7 +31,6 @@ body {
   place-items: center;
   border: 7px solid white;
   border-radius: 0;
-  background: black;
   padding: 14px;
   overflow: hidden;
 }
