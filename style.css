@@ -31,25 +31,29 @@ body {
   place-items: center;
   border: 7px solid white;
   border-radius: 0;
+  background: black;
   padding: 14px;
   overflow: hidden;
 }
 
-/* RESPONSIVE CORNERS */
+/* RESPONSIVE FRAME */
 @media (max-width: 900px) {
   .world {
+    inset: 7px;
     border-radius: 18px;
   }
 }
 
 @media (max-width: 600px) {
   .world {
+    inset: 7px;
     border-radius: 28px;
   }
 }
 
 @media (max-width: 400px) {
   .world {
+    inset: 7px;
     border-radius: 36px;
   }
 }
