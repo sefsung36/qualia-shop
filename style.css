@@ -20,7 +20,7 @@ body {
   background: black;
   overflow: hidden;
   color: white;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: Helvetica, sans-serif;
 }
 
 /* THE PAGE AREA */
@@ -29,33 +29,8 @@ body {
   inset: 0;
   display: grid;
   place-items: center;
-  border: 7px solid white;
-  border-radius: 0;
   background: black;
-  padding: 14px;
   overflow: hidden;
-}
-
-/* RESPONSIVE FRAME */
-@media (max-width: 900px) {
-  .world {
-    inset: 7px;
-    border-radius: 18px;
-  }
-}
-
-@media (max-width: 600px) {
-  .world {
-    inset: 7px;
-    border-radius: 28px;
-  }
-}
-
-@media (max-width: 400px) {
-  .world {
-    inset: 7px;
-    border-radius: 36px;
-  }
 }
 
 .scene-1 {
