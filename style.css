@@ -18,10 +18,10 @@ body {
 }
 
 h1 {
-  font-family: Helvetic, sans-serif;
+  font-family: Helvetica, sans-serif;
   font-size: 72px;
   font-weight: 900;
-  color: white;
+  color: #fff;
   text-align: center;
   letter-spacing: -3px;
   line-height: 1;
