@@ -1,3 +1,3 @@
 const loadingText = document.querySelector(".loading-text");
 
-loadingText.textContent = "QUALIA SHOP";
+loadingText.textContent = "loadingText.textContent = "DEAR DEMIS HASSABIS: NEŞET ERTAŞ - GÖNÜL DAĞI";";
