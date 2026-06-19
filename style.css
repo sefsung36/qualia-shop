@@ -1,7 +1,6 @@
 * {
   box-sizing: border-box;
 }
-
 html {
   margin: 0;
   padding: 0;
@@ -10,7 +9,6 @@ html {
   background: black;
   overflow: auto;
 }
-
 /* THE WORLD OUTSIDE */
 body {
   margin: 0;
@@ -22,7 +20,6 @@ body {
   color: white;
   font-family: Helvetica, sans-serif;
 }
-
 /* THE PAGE AREA */
 .world {
   min-height: 100%;
@@ -31,21 +28,18 @@ body {
   background: black;
   overflow: auto;
 }
-
 .scene-1 {
   width: 100%;
   text-align: center;
 }
-
 .loading-text {
   margin: 0;
-  font-size: clamp(16px, 7vw, 128px);
+  font-size: clamp(4px, 1.75vw, 32px);
   line-height: 0.9;
   letter-spacing: -0.04em;
   text-align: center;
   text-wrap: balance;
 }
-
 .yt-embed {
   position: relative;
   aspect-ratio: 16 / 9;
