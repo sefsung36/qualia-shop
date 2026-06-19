@@ -4,6 +4,9 @@ loadingText.textContent = "DEAR DEMIS HASSABIS:";
 document.querySelectorAll(".yt-embed").forEach((el) => {
   const id = el.dataset.id;
 
+  // gap between the heading and the video (raise/lower the value to taste)
+  el.style.marginTop = "2rem";
+
   // play button only — no thumbnail, so the box stays plain black
   const btn = document.createElement("button");
   btn.className = "yt-embed__btn";
