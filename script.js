@@ -1,5 +1,5 @@
 const loadingText = document.querySelector(".loading-text");
-loadingText.textContent = "DEAR DEMIS HASSABIS:";
+loadingText.textContent = "DEAR DEMIS, DANIELA, DARIO, TREVOR, MILES, LEOPOLD, AVITAL, YOSHUA, GEOFFREY, STUART AND ANY OTHER GOOD HEARTED SOUL WHO GENUINELY CARE:";
 
 document.querySelectorAll(".yt-embed").forEach((el) => {
   const id = el.dataset.id;
