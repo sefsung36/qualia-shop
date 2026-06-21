@@ -1,11 +1,11 @@
 const loadingText = document.querySelector(".loading-text");
-loadingText.textContent = "DEAR DEMIS, DANIELA, DARIO, TREVOR, MILES, LEOPOLD, AVITAL, YOSHUA, GEOFFREY, STUART AND ANY OTHER GOOD HEARTED SOUL WHO GENUINELY CARE:";
+loadingText.textContent = "DEAR DEMIS, DANIELA, DARIO, TREVOR, MILES, LEOPOLD, AVITAL, YOSHUA, GEOFFREY, STUART AND ANY OTHER GOOD HEARTED SOUL WHO GENUINELY CARES:";
 
 document.querySelectorAll(".yt-embed").forEach((el) => {
   const id = el.dataset.id;
 
   // gap between the heading and the video (raise/lower the value to taste)
-  el.style.marginTop = "4rem";
+  el.style.marginTop = "5rem";
 
   // play button only — no thumbnail, so the box stays plain black
   const btn = document.createElement("button");
