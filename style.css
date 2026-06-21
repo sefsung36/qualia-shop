@@ -35,8 +35,8 @@ body {
 .loading-text {
   margin: 0;
   font-size: clamp(8px, 3.5vw, 64px);
-  line-height: 0.9;
-  letter-spacing: -0.07em;
+  line-height: 1.2;
+  letter-spacing: -0.04em;
   text-align: center;
   text-wrap: balance;
 }
