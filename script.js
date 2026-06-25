@@ -25,3 +25,5 @@ document.querySelectorAll(".yt-embed").forEach((el) => {
     el.appendChild(iframe);
   }, { once: true });
 });
+
+10.5281/zenodo.20873219
